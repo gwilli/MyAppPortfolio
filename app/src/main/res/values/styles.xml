@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <!-- Button styles -->
+    <style name="BaseButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:paddingLeft">@dimen/abc_button_padding_horizontal_material</item>
+        <item name="android:paddingRight">@dimen/abc_button_padding_horizontal_material</item>
+        <item name="android:paddingTop">@dimen/abc_button_padding_vertical_material</item>
+        <item name="android:paddingBottom">@dimen/abc_button_padding_vertical_material</item>
+        <item name="android:layout_marginLeft">@dimen/abc_button_inset_horizontal_material</item>
+        <item name="android:layout_marginRight">@dimen/abc_button_inset_horizontal_material</item>
+        <item name="android:layout_marginTop">@dimen/abc_button_inset_vertical_material</item>
+        <item name="android:layout_marginBottom">@dimen/abc_button_inset_vertical_material</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Level1Button" parent="BaseButton">
+        <item name="android:background">@color/green_500</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">200dp</item>
+    </style>
+
+    <style name="Level2Button" parent="BaseButton">
+        <item name="android:background">@color/lime_500</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">200dp</item>
+    </style>
+
+
+</resources>
